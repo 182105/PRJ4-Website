@@ -39,7 +39,7 @@ body {
     border-top: 0px solid #7a7a7a;
     margin-bottom: 0px;
     font-family: 'Bangers', cursive;
-    font-size:30px; 
+    font-size:25px; 
 }
 .PageBody h1 {
     font-family: 'Lobster', cursive;
@@ -61,6 +61,19 @@ body {
     font-family: 'IBM Plex Serif', serif;
     text-align: center;
     font-size:20px;
+
+}
+
+.productsPageImages{
+    height: 400px;
+    width: 400px;
+}
+
+.btn {
+    text-align: center;
+    background-color: #fff88d;
+    font-family: 'Bangers', cursive;
+    color: #e68888;
 
 }
 
