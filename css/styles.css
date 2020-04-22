@@ -4,6 +4,19 @@ body {
     border: solid 0px #7a7a7a;
     border-radius: 0px;
 }
+
+header {
+    font-size: 3em;
+    font-weight: bold;
+    text-align: center;
+    width: 50%;
+    height: 50%;
+    min-width: 50%;
+    min-height: 0px;
+    margin-right: 0px;
+
+}
+
 .nav.navbar-nav li a {
     color: #A63122;
     text-align: center;
@@ -47,4 +60,15 @@ body {
     text-align: center;
     font-size:20px;
 
+}
+
+.footer {
+    text-align: center;
+    background-color: #EFEA9C;
+    border-bottom-right-radius: 0px;
+    border-bottom-left-radius: 0px;
+    min-width: 100%;
+    font-family: 'Bangers', cursive;
+    padding: 10px;
+    font-size: 30px;
 }
