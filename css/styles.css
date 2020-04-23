@@ -18,6 +18,56 @@ body {
 }
 
 
+.PageBody h1 {
+    font-family: 'Lobster', cursive;
+    text-align: center;
+    font-size: 70px;
+
+
+}
+
+.PageBody h2 {
+    font-family: 'Pacifico', cursive;
+    text-align: center;
+    font-size: 40px;
+
+
+}
+
+.PageBody h3 {
+    font-family: 'Pacifico', cursive;
+    text-align: center;
+    font-size: 40px;
+
+
+}
+
+.PageBody h4 {
+    font-family: 'Pacifico', cursive;
+    text-align: center;
+    font-size: 40px;
+
+
+}
+
+
+
+.PageBody p {
+    font-family: 'IBM Plex Serif', serif;
+    text-align: center;
+    font-size: 20px;
+
+}
+
+.pageContent {
+    text-align: center;
+    background-color: #D9A859;
+
+}
+
+
+
+
 #infoContainer {
     margin-top: 4%;
     margin-bottom: 4%;
@@ -55,72 +105,10 @@ body {
     text-align: center;
     margin-top: 3%;
     margin-bottom: 4%;
-    margin-right: 80px;
-    margin-left: 80px;
+    margin-right: 40px;
+    margin-left: 40px;
     background-color: #EFEA9C;
     text-shadow: 0px 0px 0px;
-}
-.navbar.navbar-inverse.bg-dark {
-    background-color: #EFEA9C;
-    margin-right: 0px;
-    margin-left: 0px;
-    border-radius: 0px;
-    text-align: center;
-    border-left: 0px solid #7a7a7a;
-    border-right:0px solid #7a7a7a;
-    border-bottom: 0px solid #7a7a7a;
-    border-top: 0px solid #7a7a7a;
-    margin-bottom: 0px;
-    font-family: 'Bangers', cursive;
-    font-size:25px; 
-}
-.PageBody h1 {
-    font-family: 'Lobster', cursive;
-    text-align: center;
-    font-size:70px;
-
-
-}
-
-.PageBody h2 {
-    font-family: 'Pacifico', cursive;
-    text-align: center;
-    font-size:40px;
-
-
-}
-
-.PageBody p {
-    font-family: 'IBM Plex Serif', serif;
-    text-align: center;
-    font-size:20px;
-
-}
-
-.productsPageImages{
-    height: 400px;
-    width: 400px;
-}
-
-.btn {
-    text-align: center;
-    background-color: #fff88d;
-    font-family: 'Bangers', cursive;
-    color: #e68888;
-
-}
-
-.footer {
-    text-align: center;
-    background-color: #EFEA9C;
-    border-bottom-right-radius: 0px;
-    border-bottom-left-radius: 0px;
-    min-width: 100%;
-    font-family: 'Bangers', cursive;
-    padding: 10px;
-    font-size: 30px;
-}
-
 }
 .container .content #myCarousel {
     margin: 10px
@@ -146,6 +134,68 @@ div h2 {
     clear: both;
     display: table;
 }
+
+.footer {
+    text-align: center;
+    background-color: #EFEA9C;
+    border-bottom-right-radius: 0px;
+    border-bottom-left-radius: 0px;
+    min-width: 100%;
+    font-family: 'Bangers', cursive;
+    padding: 10px;
+    font-size: 30px;
+}
+
+.navbar.navbar-inverse.bg-dark {
+    /*background-color: #EFEA9C;
+    margin-right: 0px;
+    margin-left: 0px;
+    border-radius: 0px;
+    text-align: center;
+    border-left: 0px solid #7a7a7a;
+    border-right: 0px solid #7a7a7a;
+    border-bottom: 0px solid #7a7a7a;
+    border-top: 0px solid #7a7a7a;
+    margin-bottom: 0px;
+    font-family: 'Bangers', cursive;
+    font-size: 20px;*/
+    background-color: #EFEA9C;
+    font-family: 'Bangers', cursive;
+    font-size: 20px;
+}
+
+
+#brand-image {
+    height: 70px;
+    margin: 0;
+    padding: 0;
+}
+
+#cart-image {
+	height: 30px;
+    margin-bottom: 10px;
+}
+
+#imageHyperlink {
+    padding: 0;
+    margin: 0;
+}
+
+.imageLogoListItem {
+    margin: 0;
+    padding: 0;
+}
+
+body img {
+    margin-top: 0px;
+    margin-bottom: 50px;
+}
+
+.productsPageImages{
+    height: 400px;
+    width: 400px;
+}
+
 .myButtonsClass{
     width: 300px;
     height: 200px;
@@ -157,3 +207,13 @@ div h2 {
     padding: 75px;
 
 }
+
+.btn {
+    text-align: center;
+    background-color: #fff88d;
+    font-family: 'Bangers', cursive;
+    color: #e68888;
+
+}
+
+
