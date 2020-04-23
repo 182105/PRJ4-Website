@@ -17,6 +17,39 @@ body {
     border-radius: 0px;
 }
 
+
+#infoContainer {
+    margin-top: 4%;
+    margin-bottom: 4%;
+    text-align: center;
+}
+
+#containerBorder1 {
+    box-sizing: border-box;
+    border-width: 3px;
+    border-style: solid;
+    border-image: linear-gradient(
+            to bottom,
+            pink,
+            rgba(0, 0, 0, 0)
+    ) 1 100%;
+}
+
+#containerBorder2 {
+    box-sizing: border-box;
+    border-width: 3px;
+    border-style: solid;
+    border-image: linear-gradient(
+            to bottom,
+            pink,
+            rgba(0, 0, 0, 0)
+    ) 1 100%;
+}
+
+#products {
+    float: right;
+}
+
 .nav.navbar-nav li a {
     color: #A63122;
     text-align: center;
